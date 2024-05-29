@@ -32,19 +32,21 @@ color: white;
 
 
 menu{
+    margin: 0px;
     width: 15vw;
-    height: 100vh;
+    height: 10vh;
   padding: 20px;
     display: block;
     background-color: #0F0F0F;
     display: none;
-   box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.048);
+   
 }
 
 
 
 
 svg {
+    margin: 0px;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: none;
@@ -54,14 +56,21 @@ padding-left: 25px;
 
 }
 
+.menu > div:hover{
+    width: 80px;
+    padding: 1px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+}
 
 
 
-menu > p {
-    
+.menu > div >p {
+ margin-bottom: 10px ;
 
 font-size: 12px;
  padding-left: 15px;
 
 }
+
 
